@@ -1,0 +1,61 @@
+.row-fluid.number {
+  text-align:center;
+  margin-top:100px;
+}
+
+.row-fluid.number .btn {
+  font-size:30px;
+  padding:20px 30px;
+  margin-top:20px;
+}
+
+.row-fluid.number h1 {
+  font-family:"American Typewriter";
+  font-weight:bold;
+  font-size:200px;
+  color:#FF0000;
+}
+
+@media (max-width:1200px){
+
+  .row-fluid.number h1 {
+    font-size:150px;
+  }
+
+  .row-fluid.number .btn {
+    font-size:25px;
+    padding:15px 20px;
+  }
+
+}
+
+@media (max-width:992px){
+
+  .row-fluid.number h1 {
+    font-size:125px;
+  }
+
+  .row-fluid.number .btn {
+    margin-top:15px;
+  }
+}
+
+@media (max-width:768px){
+
+  .row-fluid.number h1 {
+    font-size:100px;
+  }
+
+  .row-fluid.number .btn {
+    font-size:20px;
+    padding:10px 15px;
+  }
+}
+
+@media (max-width:600px){
+
+  .row-fluid.number h1 {
+    font-size:72px;
+  }
+
+}
